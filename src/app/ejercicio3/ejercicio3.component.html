@@ -1,0 +1,7 @@
+<div class="tareas-container">
+  <input [(ngModel)]="nuevaTarea" placeholder="Nueva tarea" />
+  <button (click)="agregarTarea()">Agregar Tarea</button>
+  <ul>
+    <li *ngFor="let tarea of tareas">{{ tarea }}</li>
+  </ul>
+</div>

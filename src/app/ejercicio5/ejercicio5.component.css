@@ -1,0 +1,25 @@
+.comentarios-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.comentarios-container input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.comentarios-container button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.comentarios-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comentarios-container li {
+  margin-top: 10px;
+  font-size: 18px;
+}

@@ -1,0 +1,20 @@
+.ejer4-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ejer4-container input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.ejer4-container button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.ejer4-container div {
+  margin-top: 20px;
+  font-size: 18px;
+}
