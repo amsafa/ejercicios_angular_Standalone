@@ -1,0 +1,28 @@
+.ejer6-container {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.precio {
+  font-weight: bold;
+  font-size: 18px;
+  color: #28a745;
+}

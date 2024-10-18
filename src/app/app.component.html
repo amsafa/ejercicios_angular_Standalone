@@ -1,15 +1,31 @@
 <main class="main">
   <h1>Bienvenido a Angular Standalone</h1>
   <div><app-componente1></app-componente1></div>
+  <h2> Ejercicio 1</h2>
   <div><app-ejercicio1 [nombre]="'Alba'"></app-ejercicio1></div>
+  <h2> Ejercicio 2</h2>
+
   <div><app-ejercicio2></app-ejercicio2></div>
+  <h2> Ejercicio 3</h2>
   <div><app-ejercicio3></app-ejercicio3></div>
+  <h2> Ejercicio 4</h2>
   <div><app-ejercicio4></app-ejercicio4></div>
-  <div><app-ejercicio5 (comentarioEnviado)="manejarComentarioEnviado($event)"></app-ejercicio5></div>
+  <h2> Ejercicio 5</h2>
   <div>
+    <app-ejercicio5 (comentarioEnviado)="manejarComentarioEnviado($event)"></app-ejercicio5>
     <h2>Comentarios Recibidos:</h2>
     <ul>
       <li *ngFor="let comentario of comentariosRecibidos">{{ comentario }}</li>
     </ul>
   </div>
+  <h2> Ejercicio 6</h2>
+  <app-ejercicio6
+    [nombre]="'Laptop HP ProBook'"
+    [descripcion]="'Una laptop ideal para el trabajo y el estudio con procesador Intel Core i7 y 16 GB de RAM.'"
+    [precio]="1200">
+  </app-ejercicio6>
+  <h2> Ejercicio 7</h2>
+  <div><app-ejercicio7></app-ejercicio7></div>
+  <h2> Ejercicio 8</h2>
+  <div><app-ejercicio8></app-ejercicio8></div>
 </main>

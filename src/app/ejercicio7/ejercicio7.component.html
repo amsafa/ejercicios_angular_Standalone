@@ -1,0 +1,13 @@
+<div class="calculator-container">
+  <h2>Calculadora Simple</h2>
+  <input type="number" [(ngModel)]="num1" placeholder="Número 1">
+  <input type="number" [(ngModel)]="num2" placeholder="Número 2">
+  <div class="buttons">
+    <button (click)="sumar()">Sumar</button>
+    <button (click)="restar()">Restar</button>
+    <button (click)="multiplicar()">Multiplicar</button>
+    <button (click)="dividir()">Dividir</button>
+    <button (click)="raizCuadrada()">Raíz Cuadrada</button>
+  </div>
+  <p>Resultado: {{ result }}</p>
+</div>

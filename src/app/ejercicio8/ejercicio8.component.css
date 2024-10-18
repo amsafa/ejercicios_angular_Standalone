@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articulos, .ticket {
+  width: 45%;
+}
+
+.articulo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+button {
+  margin-left: 8px;
+}
